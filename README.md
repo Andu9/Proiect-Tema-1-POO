@@ -1,4 +1,24 @@
-# Nu primesc notă pentru că nu am pus titlu și descriere
+# Game Card Macao
+
+### Description
+This is a simpler version of the classic Macao card game for one player. You choose the number of players: one of
+them is you and the rest are bots. Each player will get 5 cards to begin with. You can finish the card straight away
+if you consider that your deck is weak. If you choose to play, however, these are the rules:
+1. At each turn, you can either put down a card of draw another one from the game deck.
+2. You need to put down cards on a current card according to either its suit or its rank. For example, Spades Six can be
+   placed above Spades 4 or Clubs Six.
+3. If you put down 2 or 3, the next player has to draw 2 or 3 cards, respectively. If you has 2 or 3, he can put it down
+   no matter the suit and add 2 or 3 cards, respectively, to the total sum.The next player can either draw that number of
+   cards or do the same thing. A player who needs to draw cards can also put down a 4 and the cards will be canceled.
+4. If you put down A, the next player will be skipped. He can put down another A, so the next 2 players will be skipped.
+5. If you put down a 7, you can change the suit of the card that has to be placed down.
+6. When you get to one card, you have to type "macao", otherwise you need to draw 3 cards.
+7. The player that puts down all of his cards wins the game.
+
+When you can't put down any cards due to certain circumstances the game will automatically draw the number of cards that
+you have to.
+
+Have fun!
 
 ### Important!
 Aveți voie cu cod generat de modele de limbaj la care nu ați contribuit semnificativ doar în folder-ul `generated`.
@@ -71,4 +91,4 @@ O cerință nu se consideră îndeplinită dacă este realizată doar ca o serie
 
 ## Resurse
 
-- adăugați trimiteri către resursele externe care v-au ajutat sau pe care le-ați folosit
+- [The design for how the way cards are displayed](https://www.asciiart.eu/miscellaneous/playing-cards)
