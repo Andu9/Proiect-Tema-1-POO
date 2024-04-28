@@ -109,8 +109,8 @@ public:
     }
 
     void Shuffle() {
-        std::random_device rd;
-        std::mt19937 g(rd() + std::chrono::high_resolution_clock::now().time_since_epoch().count());
+        static std::random_device rd;
+        static std::mt19937 g(rd() + std::chrono::high_resolution_clock::now().time_since_epoch().count());
         std::shuffle(cards.begin(), cards.end(), g);
     }
 
