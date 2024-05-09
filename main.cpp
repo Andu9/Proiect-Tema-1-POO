@@ -578,6 +578,8 @@ int main() {
         std::cout << "Input another number of players: "; std::cin >> numberPlayers;
     }
 
+    int a = 3;
+
     Game someGame(numberPlayers);
     someGame.Play();
     return 0;
